@@ -1,6 +1,27 @@
 
 /**
- * 
+ * Sample input 
+ 9
+-1
+8
+8
+2
+7
+0
+5
+3
+-1
+
+Sample output 
+
+0, 8, 
+1, 2, 5, 
+3, 6, 
+7, 
+4, 
+
+Number of predator levels: 5
+
  */
 import java.util.*;
 
