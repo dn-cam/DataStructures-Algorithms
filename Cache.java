@@ -57,4 +57,13 @@ public class Cache {
 
 	}
 
+
+	public void printCache(){
+		for(int i = 0; i< Cache.CACHE_SIZE; i++){
+			System.out.println(Cache.cacheHead.site);
+			cacheHead = cacheHead.next;
+		}
+		return "result";
+	}
+
 }
