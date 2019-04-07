@@ -49,12 +49,9 @@ public class Cache {
 		} else {
 			if(Cache.counter < Cache.CACHE_SIZE) {
 				
-				
 			}
 		}
-
 		return Cache.cacheHead.site;
-
 	}
 
 
@@ -66,4 +63,26 @@ public class Cache {
 		return "result";
 	}
 
+
+	public static void main(){
+		Cache cache = new Cache("");
+		cache.access("duckduckgo.com");
+		cache.access("medium.com");
+		cache.access("github.com");
+	}
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
